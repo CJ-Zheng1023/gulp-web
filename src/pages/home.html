@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首页</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  @@include('../layouts/common-css.html')
+  <link href="##/styles/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="header" style="height: 100px;">
+  @@include('../layouts/header.html')
+</div>
+<div style="overflow: hidden">
+  <div style="float: left;width: 300px">
+    @@include('../layouts/menu.html')
+  </div>
+  <div class="main" style="float: left">
+    index
+  </div>
+</div>
+<div class="footer">
+  @@include('../layouts/footer.html')
+</div>
+</body>
+@@include('../layouts/common-js.html')
+<script src="##/scripts/utils.js"></script>
+</html>

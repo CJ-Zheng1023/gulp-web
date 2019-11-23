@@ -1,0 +1,4 @@
+.test{
+  background-image: url("##/images/1.jpg");
+  transform: translate(-50%);
+}
