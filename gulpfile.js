@@ -18,6 +18,7 @@ let env = 'development'    // development(开发模式) | product(生产模式)
 const gulpConfig = {
   dist: 'dist',
   static: 'static',
+  // 配置首页
   homePage: '##/pages/home.html'
 }
 
